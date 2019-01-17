@@ -69,7 +69,7 @@ Une première opération consiste à étendre le système de fichiers afin qu'il
 - rebooter
 - exécuter de nouveau la commande `/etc/init.d/resize2fs start`
 
-Voilà, la commande `df -h` vous permettra de vérifier que désormais, l'ensemble de l'epace disponnible sur la carte micro SD est utilisable.
+Voilà, la commande `df -h` vous permettra de vérifier que désormais, l'ensemble de l'espace disponible sur la carte micro SD est utilisable.
 
 ```
 Sys. de fichiers Taille Utilisé Dispo Uti% Monté sur
