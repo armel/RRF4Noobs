@@ -64,10 +64,10 @@ tmpfs               50M       0   50M   0% /run/user/0
 
 Une première opération consiste à étendre le système de fichiers afin qu'il utilise l'ensemble de l'espace. Pour ce faire, une fois connecté en SSH sur le Spotnik, procédez de la facons suivante:
 
-- exécuté la commande `/etc/init.d/resize2fs start`
+- exécutez la commande `/etc/init.d/resize2fs start`
 - patientez 2 ou 3 minutes
-- rebooté
-- exécuté de nouveau la commande `/etc/init.d/resize2fs start`
+- rebootez
+- exécutez de nouveau la commande `/etc/init.d/resize2fs start`
 
 Voilà, la commande `df -h` vous permettra de vérifier que désormais, l'ensemble de l'epace disponnible sur la carte micro SD est utilisable.
 
