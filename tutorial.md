@@ -18,7 +18,7 @@ Etant sur Orange Pi Zero, j'ai téléchargé la [version 1.9](ftp://rrf.f5nlg.ov
 
 Mon poste de travail étant sous Macos, j'ai utilisé l'exellente application [ApplePi-Baker](https://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/) afin de formater la carte micro SD et copier l'image Spotnik. 
 
-Commençons par lancer l'application ApplePi-Backer et formater la carte micr SD. Pour se faire, depuis l'application, 
+Commençons par lancer l'application ApplePi-Backer et formater la carte micro SD. Pour se faire, depuis l'application, 
 
 - sélectionner la carte SD cible
 - cliquer sur le bouton "Prep for NOOBS"
