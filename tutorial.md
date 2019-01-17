@@ -2,7 +2,7 @@
 
 Cette documentation est rédigée par F1GWX Olivier et F4HWN Armel. Elle vise à accompagner les Radio Amateurs désireux de découvrir le RRF et de mettre en oeuvre un hotspot de type Spotnik.
 
-# Partie Hardware
+### Partie Hardware
 
 
 # Partie Software
