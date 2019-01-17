@@ -23,7 +23,7 @@ Commençons par lancer l'application ApplePi-Backer et formater la carte micro S
 - sélectionner la carte SD cible
 - cliquer sur le bouton "Prep for NOOBS"
 
-Une fois cette étape terminée, nous allons copier l'image Spotnik. L'image étant au format 7z après téléchargement via le site FTP, je recommande de la décompresser au format avec l'application [The Unarchiver](https://theunarchiver.com/). Sous Windows, vous pouvez utiliser [7-Zip](https://7-zip.fr.softonic.com/) ou [WinRAR](https://www.win-rar.com/).
+Une fois cette étape terminée, nous allons copier l'image Spotnik. L'image étant au format 7z après téléchargement via le site FTP, je recommande de la décompresser au format .img avec l'application [The Unarchiver](https://theunarchiver.com/). Sous Windows, vous pouvez utiliser [7-Zip](https://7-zip.fr.softonic.com/) ou [WinRAR](https://www.win-rar.com/).
 
 
 Puis,
@@ -64,10 +64,10 @@ tmpfs               50M       0   50M   0% /run/user/0
 
 Une première opération consiste à étendre le système de fichiers afin qu'il utilise l'ensemble de l'espace. Pour ce faire, une fois connecté en SSH sur le Spotnik, procédez de la facons suivante:
 
-- exécutez la commande `/etc/init.d/resize2fs start`
-- patientez 2 ou 3 minutes
-- rebootez
-- exécutez de nouveau la commande `/etc/init.d/resize2fs start`
+- exécuter la commande `/etc/init.d/resize2fs start`
+- patienter 2 ou 3 minutes
+- rebooter
+- exécuter de nouveau la commande `/etc/init.d/resize2fs start`
 
 Voilà, la commande `df -h` vous permettra de vérifier que désormais, l'ensemble de l'epace disponnible sur la carte micro SD est utilisable.
 
