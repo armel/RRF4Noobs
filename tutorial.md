@@ -37,11 +37,11 @@ Vous pouvez alors l'insérer dans le logement prévu à cet effet, situé sous l
 
 ## Premier démarrage
 
-Vous pouvez maintenant racorder votre Orange Pi Zero à un cable RJ45 et l'alimenter via un cable micro USB. L'Orange Pi Zero va booter, pour la première fois !
+Vous pouvez maintenant raccorder votre Orange Pi Zero à un câble RJ45 et l'alimenter via un câble micro USB. L'Orange Pi Zero va booter, pour la première fois !
 
 ## Addresse IP
 
-A l'aide d'un scanner de réseau local, relevé l'IP du Spotnik. J'ai utilisé [LanScan](https://www.iwaxx.com/lanscan/). Vous pouvez aussi utiliser l'application [Angry IP Scanner](https://angryip.org/download/) qui est multiplateforme. 
+À l'aide d'un scanner de réseau local, relevé l'IP du Spotnik. J'ai utilisé [LanScan](https://www.iwaxx.com/lanscan/). Vous pouvez aussi utiliser l'application [Angry IP Scanner](https://angryip.org/download/) qui est multiplateforme. 
 
 Vous pouvez ensuite vous connecter en SSH, via l'application Terminal, en utilisant le login _root_ et le mot de passe _spotnik_. Sous Windows, téléchargez [PuTTy](https://www.putty.org/).
 
@@ -62,7 +62,7 @@ tmpfs              248M     24K  248M   1% /tmp
 tmpfs               50M       0   50M   0% /run/user/0
 ```
 
-Une première opération consiste à étendre le système de fichiers afin qu'il utilise l'ensemble de l'espace. Pour ce faire, une fois connecté en SSH sur le Spotnik, procédez de la facons suivante:
+Une première opération consiste à étendre le système de fichiers afin qu'il utilise l'ensemble de l'espace. Pour ce faire, une fois connecté en SSH sur le Spotnik, procédez de la façon suivante:
 
 - exécuter la commande `/etc/init.d/resize2fs start`
 - patienter 2 ou 3 minutes
