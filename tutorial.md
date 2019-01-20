@@ -85,3 +85,27 @@ tmpfs               50M       0   50M   0% /run/user/0
 ```
 
 
+## FAQ
+
+### Après paramétrage depuis le GUI d'un Spotnik Delta, le CTCSS n'est pas fonctionnel
+
+Pour la programmation du SA818, préférer l'utilisation d'un script Shell plutôt que le GUI. 
+
+```
+cd /usr/local/sbin
+cp 818cli-prog 818-f4hwn
+```
+
+Editer le fichier, en changeant la fréquence ligne 15.
+
+```
+diff 818cli-prog 818-f4hwn
+15c15
+<    group = '432.9750,432.9750,0002,5,0002'
+---
+>    group = '434.9750,434.9750,0002,5,0002'
+```
+
+Attention au code CTCSS et voir la table de correspondance dans le fichier README.txt
+
+Et rebootez.
