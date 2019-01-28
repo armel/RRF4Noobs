@@ -4,7 +4,13 @@ Cette documentation est rédigée par F1GWX Olivier et F4HWN Armel. Elle vise à
 
 # Partie Hardware
 
-Todo
+## Spotnik Beta sur CRT FP00
+
+![alt text](https://github.com/armel/RRF4Noobs/blob/master/img/spotnik-crt-fp00.jpg)
+
+## Spotnik Beta sur CRT Space U ou V
+
+![alt text](https://github.com/armel/RRF4Noobs/blob/master/img/spotnik-crt-space.jpg)
 
 # Partie Software
 
