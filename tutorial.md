@@ -115,3 +115,15 @@ diff 818cli-prog 818-f4hwn
 Attention au code CTCSS et voir la table de correspondance dans le fichier README.txt
 
 Et rebootez.
+
+### Après basculement sur le salon TEC, le Spotnik retourne sur le salon RRF au bout de 20 minutes
+
+Editer la ligne 40 du fichier ```/etc/spotnik/restart.tec``` comme ceci,
+
+```
+< sleep 20m
+----
+> sleep 120m
+```
+
+Et voilà, on restera 2 heures (120 minutes) sur le salon TEC avant de rebasculer sur le salon RRF.
