@@ -127,3 +127,23 @@ Editer la ligne 40 du fichier ```/etc/spotnik/restart.tec``` comme ceci,
 ```
 
 Et voilà, on restera 2 heures (120 minutes) sur le salon TEC avant de rebasculer sur le salon RRF.
+
+### Comment vérifier et régler mon audio ?
+
+Plusieurs moyens de contrôle et outils sont à votre dispostion. 
+
+Un bon réflexe est de commencer par basculer le link sur le Perroquet. Vous pouvez le faire, soit via la commande DTMF (95#), soit via l'outil ```spot``` en CLI (menu 8).
+
+En mode Perroquet, vous allez pouvoir vous écouter.
+
+C'est le bon moment de jouer sur les paramètres:
+
+- de votre Transceiver (en particulier, le gain micro),
+- de votre Spotnik.
+
+Concernant les réglages du Spotnik, toujours depuis l'outil ```spot``` en CLI, vous allez pouvoir jouer avec Alsamixer (menu 11).
+
+Ensuite, vous pouvez aussi vous écouter sur le Dashboard. C'est aussi un bon moyen de controler la qualité de sa modulation. Une bonne idée est de basculer sur le salon Technique, soit via la commande DTMF (98#), soit via l'outil ```spot``` en CLI (menu 3). Vous pouvez alors passer en émission et vous écouter sur le Dashboard du [salon Technique](http://rrf.f5nlg.ovh:82/).
+
+Pour finir, un excellent moyen de s'écouter sur le RRF est d'utiliser le [WebSDR du F4KJI](http://www.f4kji.fr/index6m.html), Radio Club de Strasbourg. Sur 50.520 MHz, vous pourrez écouter le RRF (et vous écouter également).
+
