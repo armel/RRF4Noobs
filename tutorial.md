@@ -1,6 +1,6 @@
 # Introduction
 
-Cette documentation est rédigée par F4HWN Armel. Elle vise à accompagner les Radio Amateurs désireux de découvrir le RRF et de mettre en oeuvre un noeud ou hotspot de type Spotnik.
+Cette documentation est rédigée par F4HWN Armel. Elle vise à accompagner les Radio Amateurs désireux de découvrir le RRF et de mettre en œuvre un noeud ou hotspot de type Spotnik.
 
 # Partie Hardware
 
