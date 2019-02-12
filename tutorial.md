@@ -1,14 +1,18 @@
 # Introduction
 
-Cette documentation est rédigée par F1GWX Olivier et F4HWN Armel. Elle vise à accompagner les Radio Amateurs désireux de découvrir le RRF et de mettre en oeuvre un hotspot de type Spotnik.
+Cette documentation est rédigée par F4HWN Armel. Elle vise à accompagner les Radio Amateurs désireux de découvrir le RRF et de mettre en oeuvre un noeud ou hotspot de type Spotnik.
 
 # Partie Hardware
 
 ## Spotnik Beta sur CRT FP00
 
+Raccordement d'un Spotnik Beta sur CRT FP00 par F1GWX Olivier. Le CRT FP00 est un pocket bibande VHF (1W/5W) et UHF (1W/4W). Il offre un bon compromis au Baofeng UV5R tout en respectant les normes techniques, environnementales, etc. (norme CE, Directive RoHS, etc.).  
+
 ![alt text](https://github.com/armel/RRF4Noobs/blob/master/img/spotnik-crt-fp00.jpg)
 
 ## Spotnik Beta sur CRT Space U ou V
+
+Raccordement d'un Spotnik Beta sur CRT Space U ou V par F1GWX Olivier. Les CRT Space U ou Space V sont des Transceivers mobiles offrant 5W, 10W ou 17W de puissance. Très compactes, ils sont déjà utilisés sur plusieurs noeuds du RRF (F1GWX, F5NKP, F4HWN, etc.). 
 
 ![alt text](https://github.com/armel/RRF4Noobs/blob/master/img/spotnik-crt-space.jpg)
 
@@ -22,7 +26,7 @@ Etant sur Orange Pi Zero, j'ai téléchargé la [version 1.9](ftp://rrf.f5nlg.ov
 
 ## Préparation de la carte micro SD
 
-Mon poste de travail étant sous Macos, j'ai utilisé l'exellente application [ApplePi-Baker](https://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/) afin de formater la carte micro SD et copier l'image Spotnik. 
+Mon poste de travail étant sous Macos, j'ai utilisé l'excellente application [ApplePi-Baker](https://www.tweaking4all.com/hardware/raspberry-pi/macosx-apple-pi-baker/) afin de formater la carte micro SD et copier l'image Spotnik. 
 
 Commençons par lancer l'application ApplePi-Backer et formater la carte micro SD. Pour se faire, depuis l'application, 
 
@@ -45,7 +49,7 @@ Vous pouvez alors l'insérer dans le logement prévu à cet effet, situé sous l
 
 Vous pouvez maintenant raccorder votre Orange Pi Zero à un câble RJ45 et l'alimenter via un câble micro USB. L'Orange Pi Zero va booter, pour la première fois !
 
-## Addresse IP
+## Adresse IP
 
 À l'aide d'un scanner de réseau local, relevé l'IP du Spotnik. J'ai utilisé [LanScan](https://www.iwaxx.com/lanscan/). Vous pouvez aussi utiliser l'application [Angry IP Scanner](https://angryip.org/download/) qui est multiplateforme. 
 
@@ -130,7 +134,7 @@ Et voilà, on restera 2 heures (120 minutes) sur le salon TEC avant de rebascule
 
 ### Comment vérifier et régler mon audio ?
 
-Plusieurs moyens de contrôle et outils sont à votre dispostion. 
+Plusieurs moyens de contrôle et outils sont à votre disposition. 
 
 Un bon réflexe est de commencer par basculer le link sur le Perroquet. Vous pouvez le faire, soit via la commande DTMF (95#), soit via l'outil ```spot``` en CLI (menu 8).
 
@@ -143,7 +147,7 @@ C'est le bon moment de jouer sur les paramètres:
 
 Concernant les réglages du Spotnik, toujours depuis l'outil ```spot``` en CLI, vous allez pouvoir jouer avec Alsamixer (menu 11).
 
-Ensuite, vous pouvez aussi vous écouter sur le Dashboard. C'est aussi un bon moyen de controler la qualité de sa modulation. Une bonne idée est de basculer sur le salon Technique, soit via la commande DTMF (98#), soit via l'outil ```spot``` en CLI (menu 3). Vous pouvez alors passer en émission et vous écouter sur le Dashboard du [salon Technique](http://rrf.f5nlg.ovh:82/).
+Ensuite, vous pouvez aussi vous écouter sur le Dashboard. C'est aussi un bon moyen de contrôler la qualité de sa modulation. Une bonne idée est de basculer sur le salon Technique, soit via la commande DTMF (98#), soit via l'outil ```spot``` en CLI (menu 3). Vous pouvez alors passer en émission et vous écouter sur le Dashboard du [salon Technique](http://rrf.f5nlg.ovh:82/).
 
 Pour finir, un excellent moyen de s'écouter sur le RRF est d'utiliser le [WebSDR du F4KJI](http://www.f4kji.fr/index6m.html), Radio Club de Strasbourg. Sur 50.520 MHz, vous pourrez écouter le RRF (et vous écouter également).
 
