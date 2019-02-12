@@ -147,7 +147,9 @@ C'est le bon moment de jouer sur les paramètres:
 
 Concernant les réglages du Spotnik, toujours depuis l'outil ```spot``` en CLI, vous allez pouvoir jouer avec Alsamixer (menu 11).
 
-Ensuite, vous pouvez aussi vous écouter sur le Dashboard. C'est aussi un bon moyen de contrôler la qualité de sa modulation. Une bonne idée est de basculer sur le salon Technique, soit via la commande DTMF (98#), soit via l'outil ```spot``` en CLI (menu 3). Vous pouvez alors passer en émission et vous écouter sur le Dashboard du [salon Technique](http://rrf.f5nlg.ovh:82/).
+Ensuite, vous pouvez aussi vous écouter sur le Dashboard. C'est également un bon moyen de contrôler la qualité de sa modulation. Attention, il est préférable de basculer sur le salon Technique afin de ne pas perturber le RRF avec vos tests. Il est inutile d'en faire profiter l'ensemble du réseau ;) 
 
-Pour finir, un excellent moyen de s'écouter sur le RRF est d'utiliser le [WebSDR du F4KJI](http://www.f4kji.fr/index6m.html), Radio Club de Strasbourg. Sur 50.520 MHz, vous pourrez écouter le RRF (et vous écouter également).
+Vous pouvez rejoindre le salon Technique soit via la commande DTMF (98#), soit via l'outil ```spot``` en CLI (menu 3). Passez en émission et écoutez vous sur le Dashboard du [salon Technique](http://rrf.f5nlg.ovh:82/). Si d'autres Radio Amateurs sont présents sur le salon Technique, ils pourront également vous faire un report.  
+
+Pour finir, il existe un autre excellent moyen de s'écouter sur le RRF en utilisant le [WebSDR du F4KJI](http://www.f4kji.fr/index6m.html) du Radio Club de Strasbourg. Sur 50.520 MHz, vous pourrez écouter le RRF et vous écouter également.
 
