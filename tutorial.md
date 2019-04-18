@@ -153,3 +153,30 @@ Vous pouvez rejoindre le salon Technique soit via la commande DTMF (98#), soit v
 
 Pour finir, il existe un autre excellent moyen de s'écouter sur le RRF en utilisant le [WebSDR du F4KJI](http://www.f4kji.fr/index6m.html) du Radio Club de Strasbourg. Sur 50.520 MHz, vous pourrez écouter le RRF et vous écouter également.
 
+### Comment désactiver les commandes DTMF
+
+Editer le fichier ```/etc/spotnik/svxlink.cfg``` et modifier le paramètre ```DTMF_DEC_TYPE```. Par défaut, il est initialisé avec la valeur ```INTERNAL```. Il suffit de changer la valeur en ```NONE```.
+
+```
+< DTMF_DEC_TYPE=INTERNAL
+----
+> DTMF_DEC_TYPE=NONE
+```
+### Comment modifier le fuseau horaire
+
+Par défaut, votre Spotnik est réglé sur l'heure Francaise. Il suffit de modifier le ```/etc/localtime```. Par exemple, pour la Guadeloupe:
+
+```cp /usr/share/zoneinfo/America/Guadeloupe /etc/localtime```
+
+### Comment démarrer l'interface Web
+
+Par les commandes suivantes:
+
+```
+cd /opt/spotnik/gui
+make start
+```
+
+Normalement, cette opération est réalisée au démarrage de votre Spotnik, via le fichier ```/etc/rc.local```.
+
+
