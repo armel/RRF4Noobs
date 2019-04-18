@@ -12,7 +12,7 @@ Raccordement d'un Spotnik Beta sur CRT FP00 par F1GWX Olivier. Le CRT FP00 est u
 
 ## Spotnik Beta sur CRT Space U ou V
 
-Raccordement d'un Spotnik Beta sur CRT Space U ou V par F1GWX Olivier. Les CRT Space U ou Space V sont des Transceivers mobiles offrant 5W, 10W ou 17W de puissance. Très compactes, ils sont déjà utilisés sur plusieurs noeuds du RRF (F1GWX, F5NKP, F4HWN, etc.). 
+Raccordement d'un Spotnik Beta sur CRT Space U ou V par F1GWX Olivier. Les CRT Space U ou Space V sont des Transceivers mobiles offrant 5W, 10W ou 17W de puissance. Très compactes, ils sont déjà utilisés sur plusieurs noeuds du RRF (F1ZPX, F1ZQC, F5NKP, FG5GP, etc.). 
 
 ![alt text](https://github.com/armel/RRF4Noobs/blob/master/img/spotnik-crt-space.jpg)
 
@@ -52,6 +52,8 @@ Vous pouvez maintenant raccorder votre Orange Pi Zero à un câble RJ45 et l'ali
 ## Adresse IP
 
 À l'aide d'un scanner de réseau local, relevé l'IP du Spotnik. J'ai utilisé [LanScan](https://www.iwaxx.com/lanscan/). Vous pouvez aussi utiliser l'application [Angry IP Scanner](https://angryip.org/download/) qui est multiplateforme. 
+
+Il également possible d'obtenir l'adresse IP de son Spotnik via la commande DTMF 93#.
 
 Vous pouvez ensuite vous connecter en SSH, via l'application Terminal, en utilisant le login _root_ et le mot de passe _spotnik_. Sous Windows, téléchargez [PuTTy](https://www.putty.org/).
 
@@ -152,6 +154,17 @@ Ensuite, vous pouvez aussi vous écouter sur le Dashboard. C'est également un b
 Vous pouvez rejoindre le salon Technique soit via la commande DTMF (98#), soit via l'outil ```spot``` en CLI (menu 3). Passez en émission et écoutez vous sur le Dashboard du [salon Technique](http://rrf.f5nlg.ovh:82/). Si d'autres Radio Amateurs sont présents sur le salon Technique, ils pourront également vous faire un report.  
 
 Pour finir, il existe un autre excellent moyen de s'écouter sur le RRF en utilisant le [WebSDR du F4KJI](http://www.f4kji.fr/index6m.html) du Radio Club de Strasbourg. Sur 50.520 MHz, vous pourrez écouter le RRF et vous écouter également.
+
+### Quels sont les principaux codes DTMF à connaitre ?
+
+| Code DTMF | Action |
+| :-------: | :----: | 
+| 93# | Adresse IP |
+| 95# | Stand Alone et Perroquet |
+| 96# | Salon RRF |
+| 97# | FON (French Open Network) |
+| 98# | Salon Technique |
+| 99# | Salon International |
 
 ### Comment désactiver les commandes DTMF
 
